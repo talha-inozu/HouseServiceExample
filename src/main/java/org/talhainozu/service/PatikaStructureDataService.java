@@ -3,7 +3,8 @@ package org.talhainozu.service;
 import org.talhainozu.entitiy.House;
 import org.talhainozu.entitiy.SummerHouse;
 import org.talhainozu.entitiy.Villa;
-import org.talhainozu.entitiy.interfaces.Structure;
+import org.talhainozu.entitiy.common.Structure;
+import org.talhainozu.service.common.DataService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
 public class PatikaStructureDataService implements DataService {
     @Override
     public List data() {
+        //create virtual data for testing the service
         List<Structure> dataList = new ArrayList<>();
 
         House house_1 = new House(1500.0 ,165.0 ,3,1);

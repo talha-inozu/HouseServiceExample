@@ -1,4 +1,4 @@
-package org.talhainozu.service;
+package org.talhainozu.service.common;
 
 import java.util.List;
 

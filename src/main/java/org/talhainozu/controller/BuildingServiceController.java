@@ -1,18 +1,18 @@
 package org.talhainozu.controller;
 
-import org.talhainozu.entitiy.interfaces.Structure;
-import org.talhainozu.service.DataService;
+import org.talhainozu.entitiy.common.Structure;
+import org.talhainozu.service.common.DataService;
 import org.talhainozu.service.PatikaBuildingService;
 import org.talhainozu.service.PatikaStructureDataService;
-import org.talhainozu.service.StructureService;
+import org.talhainozu.service.common.StructureService;
 
 import java.util.List;
-
+//Main controller which is responsible for usage of Services
 public class BuildingServiceController {
     public static void main(String[] args) {
-        StructureService structureService = new PatikaBuildingService();
-        DataService dataService = new PatikaStructureDataService();
-        List<Structure> structureList = dataService.data();
+        StructureService structureService = new PatikaBuildingService(); // PatikaBuildingService which is instance of StructureService
+        DataService dataService = new PatikaStructureDataService(); // PatikaStructureDataService which is instance of dataService(data generator)
+        List<Structure> structureList = dataService.data(); // take data to list
 
         System.out.println("Total price of all Structures : " + structureService.totalPriceOfAllStructures(structureList));
         System.out.println("Total price of Houses : " + structureService.totalPriceOfHouses(structureList));

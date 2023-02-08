@@ -1,4 +1,4 @@
-package org.talhainozu.entitiy.interfaces;
+package org.talhainozu.entitiy.common;
 
 import lombok.Getter;
 
