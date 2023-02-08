@@ -1,8 +1,7 @@
-package org.talhainozu.model;
+package org.talhainozu.entitiy;
 
-import lombok.Getter;
-import org.talhainozu.persistance.Structure;
 
+import org.talhainozu.entitiy.interfaces.Structure;
 
 public class House extends Structure {
 

@@ -1,9 +1,9 @@
 package org.talhainozu.service;
 
-import org.talhainozu.model.House;
-import org.talhainozu.model.SummerHouse;
-import org.talhainozu.model.Villa;
-import org.talhainozu.persistance.Structure;
+import org.talhainozu.entitiy.House;
+import org.talhainozu.entitiy.SummerHouse;
+import org.talhainozu.entitiy.Villa;
+import org.talhainozu.entitiy.interfaces.Structure;
 
 import java.util.ArrayList;
 import java.util.List;

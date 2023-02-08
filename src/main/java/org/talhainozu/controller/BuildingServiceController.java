@@ -1,6 +1,6 @@
-package org.talhainozu;
+package org.talhainozu.controller;
 
-import org.talhainozu.persistance.Structure;
+import org.talhainozu.entitiy.interfaces.Structure;
 import org.talhainozu.service.DataService;
 import org.talhainozu.service.PatikaBuildingService;
 import org.talhainozu.service.PatikaStructureDataService;
@@ -8,7 +8,7 @@ import org.talhainozu.service.StructureService;
 
 import java.util.List;
 
-public class App {
+public class BuildingServiceController {
     public static void main(String[] args) {
         StructureService structureService = new PatikaBuildingService();
         DataService dataService = new PatikaStructureDataService();

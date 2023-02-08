@@ -1,4 +1,4 @@
-package org.talhainozu.persistance;
+package org.talhainozu.entitiy.interfaces;
 
 import lombok.Getter;
 

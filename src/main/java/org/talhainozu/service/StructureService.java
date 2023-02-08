@@ -1,6 +1,6 @@
 package org.talhainozu.service;
 
-import org.talhainozu.persistance.Structure;
+import org.talhainozu.entitiy.interfaces.Structure;
 
 import java.util.List;
 
